@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".FeedbackA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+   >
+
+
+        <EditText
+            android:id="@+id/emailedittextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:inputType="textEmailAddress"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        >
+
+        <EditText
+            android:id="@+id/journeyeditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tell Us your Journey"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:inputType="text"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:background="#74ACD6"
+
+        >
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#355C7A"
+            android:padding="10dp"
+            android:text="Send US"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#F8F7F7"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancle"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ff22"
+            android:padding="10dp"
+            android:text="Cancle"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FCFCFC"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
